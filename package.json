@@ -1,0 +1,23 @@
+{
+  "name": "com.haggets.hap",
+  "displayName": "HAP (Haggets Avatar Prefabs)",
+  "version": "0.1.0",
+  "unity": "2022.3",
+  "description": "Modular animator logic for VRChat avatars. Drop-in VRCFury prefabs that export HAP/ parameters (frame time, smoothed gestures, gaze, blinking and contact interactions) for your own controllers to consume.",
+  "author": {
+    "name": "Haggets",
+    "url": "https://haggets.com"
+  },
+  "vpmDependencies": {
+    "com.vrchat.avatars": ">=3.5.0",
+    "com.vrcfury.vrcfury": ">=1.1000.0"
+  },
+  "legacyFolders": {},
+  "hideInEditor": false,
+  "keywords": [
+    "vrchat",
+    "avatar",
+    "vrcfury",
+    "animator"
+  ]
+}

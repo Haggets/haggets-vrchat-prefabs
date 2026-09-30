@@ -1,0 +1,63 @@
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    if: startsWith(github.ref, 'refs/tags/')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Read package info
+        id: pkg
+        run: |
+          echo "name=$(jq -r .name package.json)" >> "$GITHUB_OUTPUT"
+          echo "version=$(jq -r .version package.json)" >> "$GITHUB_OUTPUT"
+
+      - name: Tag must match package.json version
+        run: test "v${{ steps.pkg.outputs.version }}" = "${GITHUB_REF_NAME}"
+
+      - name: Build zip
+        run: zip -r "${{ steps.pkg.outputs.name }}-${{ steps.pkg.outputs.version }}.zip" . -x ".git/*" ".github/*" ".gitignore"
+
+      - name: Publish release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            ${{ steps.pkg.outputs.name }}-${{ steps.pkg.outputs.version }}.zip
+            package.json
+
+  listing:
+    needs: [release]
+    if: always() && (needs.release.result == 'success' || github.event_name == 'workflow_dispatch')
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build VPM listing
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 .github/scripts/build_listing.py "${{ github.repository }}" _site
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - id: deploy
+        uses: actions/deploy-pages@v4
