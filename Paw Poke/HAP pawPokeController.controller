@@ -37,7 +37,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/PawPoke/Left/Pass
+    m_DirectBlendParameter: _HAP/PawPokeLeft/Pass
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 017e67aaaba0491782d76c5286d04afd, type: 2}
@@ -45,30 +45,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: HAP/PawPoke/Left/Proxy
-    m_Mirror: 0
-  m_BlendParameter: weight
-  m_BlendParameterY: weight
-  m_MinThreshold: 0
-  m_MaxThreshold: 0
-  m_UseAutomaticThresholds: 0
-  m_NormalizedBlendValues: 0
-  m_BlendType: 4
---- !u!206 &-3949555492845455428
-BlendTree:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Enabled
-  m_Childs:
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 66922e053a9546fba44a2ea822358afb, type: 2}
-    m_Threshold: 0
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: HAP/PawPoke/Contact/Left
+    m_DirectBlendParameter: HAP/PawPokeLeft/Proxy
     m_Mirror: 0
   m_BlendParameter: weight
   m_BlendParameterY: weight
@@ -86,12 +63,12 @@ BlendTree:
   m_Name: Input
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: -3949555492845455428}
+    m_Motion: {fileID: 7400000, guid: 66922e053a9546fba44a2ea822358afb, type: 2}
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: HAP/PawPoke/Enabled
+    m_DirectBlendParameter: HAP/PawPokeLeft/Contact
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 017e67aaaba0491782d76c5286d04afd, type: 2}
@@ -99,7 +76,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/PawPoke/Left/Pass
+    m_DirectBlendParameter: _HAP/PawPokeLeft/Pass
     m_Mirror: 0
   m_BlendParameter: weight
   m_BlendParameterY: weight
@@ -176,7 +153,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/PawPoke/Right/Pass
+    m_DirectBlendParameter: _HAP/PawPokeRight/Pass
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 900d4582057f44cd8c1735d72bf8241b, type: 2}
@@ -184,30 +161,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: HAP/PawPoke/Right/Proxy
-    m_Mirror: 0
-  m_BlendParameter: weight
-  m_BlendParameterY: weight
-  m_MinThreshold: 0
-  m_MaxThreshold: 0
-  m_UseAutomaticThresholds: 0
-  m_NormalizedBlendValues: 0
-  m_BlendType: 4
---- !u!206 &6690916972081060060
-BlendTree:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Enabled
-  m_Childs:
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 5f87edb02f9a4dea8a899d83f6f49095, type: 2}
-    m_Threshold: 0
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: HAP/PawPoke/Contact/Right
+    m_DirectBlendParameter: HAP/PawPokeRight/Proxy
     m_Mirror: 0
   m_BlendParameter: weight
   m_BlendParameterY: weight
@@ -225,12 +179,12 @@ BlendTree:
   m_Name: Input
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 6690916972081060060}
+    m_Motion: {fileID: 7400000, guid: 5f87edb02f9a4dea8a899d83f6f49095, type: 2}
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: HAP/PawPoke/Enabled
+    m_DirectBlendParameter: HAP/PawPokeRight/Contact
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 900d4582057f44cd8c1735d72bf8241b, type: 2}
@@ -238,7 +192,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/PawPoke/Right/Pass
+    m_DirectBlendParameter: _HAP/PawPokeRight/Pass
     m_Mirror: 0
   m_BlendParameter: weight
   m_BlendParameterY: weight
@@ -440,13 +394,13 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: _HAP/PawPoke/Left/Pass
+  - m_Name: _HAP/PawPokeLeft/Pass
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: _HAP/PawPoke/Right/Pass
+  - m_Name: _HAP/PawPokeRight/Pass
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -458,31 +412,25 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: HAP/PawPoke/Enabled
-    m_Type: 1
-    m_DefaultFloat: 1
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: HAP/PawPoke/Contact/Left
+  - m_Name: HAP/PawPokeLeft/Contact
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: HAP/PawPoke/Contact/Right
+  - m_Name: HAP/PawPokeRight/Contact
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: HAP/PawPoke/Left/Proxy
+  - m_Name: HAP/PawPokeLeft/Proxy
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: HAP/PawPoke/Right/Proxy
+  - m_Name: HAP/PawPokeRight/Proxy
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0

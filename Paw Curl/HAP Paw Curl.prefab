@@ -70,13 +70,7 @@ MonoBehaviour:
             objRef: {fileID: 9100000, guid: bcfee8498fa44b96add9904687449343, type: 2}
           type: 5
         menus: []
-        prms:
-        - parameters:
-            version: 1
-            fileID: 0
-            guid: 
-            id: beecd577bd5e4c9e9feab0ea6e9058d3|Packages/com.haggets.hap/Paw Curl/HAP pawCurlParams.asset
-            objRef: {fileID: 11400000, guid: beecd577bd5e4c9e9feab0ea6e9058d3, type: 2}
+        prms: []
         smoothedPrms: []
         globalParams:
         - 'HAP/*'
@@ -139,7 +133,7 @@ MonoBehaviour:
   allowOthers: 0
   useFaceProximity: 0
   receiverType: 2
-  parameter: HAP/PawCurl/Contact/Left
+  parameter: HAP/PawCurlLeft/Contact
   minVelocity: 0.05
 --- !u!114 &2394544995527380377
 MonoBehaviour:
@@ -168,5 +162,5 @@ MonoBehaviour:
   allowOthers: 0
   useFaceProximity: 0
   receiverType: 2
-  parameter: HAP/PawCurl/Contact/Right
+  parameter: HAP/PawCurlRight/Contact
   minVelocity: 0.05

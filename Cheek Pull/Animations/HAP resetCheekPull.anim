@@ -54,7 +54,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/CheekPull/Left/Proxy
+    attribute: HAP/CheekPullLeft/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -75,7 +75,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/CheekPull/Left/Pass
+    attribute: _HAP/CheekPullLeft/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -96,7 +96,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/CheekPull/Right/Proxy
+    attribute: HAP/CheekPullRight/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -117,7 +117,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/CheekPull/Right/Pass
+    attribute: _HAP/CheekPullRight/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -141,7 +141,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 1019951735
+      attribute: 3698506568
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -150,7 +150,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 3283234722
+      attribute: 1814609885
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -159,7 +159,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 770917151
+      attribute: 2608191395
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -168,7 +168,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 3664538747
+      attribute: 444176966
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -234,7 +234,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/CheekPull/Left/Proxy
+    attribute: HAP/CheekPullLeft/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -255,7 +255,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/CheekPull/Left/Pass
+    attribute: _HAP/CheekPullLeft/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -276,7 +276,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/CheekPull/Right/Proxy
+    attribute: HAP/CheekPullRight/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -297,7 +297,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/CheekPull/Right/Pass
+    attribute: _HAP/CheekPullRight/Pass
     path: 
     classID: 95
     script: {fileID: 0}

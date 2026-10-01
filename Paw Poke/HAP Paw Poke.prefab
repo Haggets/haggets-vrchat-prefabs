@@ -70,13 +70,7 @@ MonoBehaviour:
             objRef: {fileID: 9100000, guid: 16e3598a70274638ab49677a983d0cfb, type: 2}
           type: 5
         menus: []
-        prms:
-        - parameters:
-            version: 1
-            fileID: 0
-            guid: 
-            id: 1336f0c8756e41c99a3a68687d169547|Packages/com.haggets.hap/Paw Poke/HAP pawPokeParams.asset
-            objRef: {fileID: 11400000, guid: 1336f0c8756e41c99a3a68687d169547, type: 2}
+        prms: []
         smoothedPrms: []
         globalParams:
         - 'HAP/*'
@@ -139,7 +133,7 @@ MonoBehaviour:
   allowOthers: 1
   useFaceProximity: 0
   receiverType: 2
-  parameter: HAP/PawPoke/Contact/Left
+  parameter: HAP/PawPokeLeft/Contact
   minVelocity: 0.05
 --- !u!114 &358720724750167289
 MonoBehaviour:
@@ -168,5 +162,5 @@ MonoBehaviour:
   allowOthers: 1
   useFaceProximity: 0
   receiverType: 2
-  parameter: HAP/PawPoke/Contact/Right
+  parameter: HAP/PawPokeRight/Contact
   minVelocity: 0.05

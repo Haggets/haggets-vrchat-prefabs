@@ -354,7 +354,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: HAP/Blink/Left/Proxy
+    m_DirectBlendParameter: HAP/BlinkLeft/Proxy
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: a390874a6d18478899aba2834f65a33d, type: 2}
@@ -362,7 +362,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: HAP/Blink/Right/Proxy
+    m_DirectBlendParameter: HAP/BlinkRight/Proxy
     m_Mirror: 0
   m_BlendParameter: weight
   m_BlendParameterY: Blend
@@ -395,7 +395,7 @@ BlendTree:
     m_CycleOffset: 0
     m_DirectBlendParameter: Blend
     m_Mirror: 0
-  m_BlendParameter: HAP/Blink/LeftOverride
+  m_BlendParameter: HAP/BlinkLeftOverride
   m_BlendParameterY: Blend
   m_MinThreshold: 0
   m_MaxThreshold: 1
@@ -557,13 +557,13 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: _HAP/Blink/Left/Pass
+  - m_Name: _HAP/BlinkLeft/Pass
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: _HAP/Blink/Right/Pass
+  - m_Name: _HAP/BlinkRight/Pass
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -581,31 +581,25 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: HAP/Blink/Enabled
-    m_Type: 4
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 0}
-  - m_Name: HAP/Blink/Left/Proxy
+  - m_Name: HAP/BlinkLeft/Proxy
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: HAP/Blink/Right/Proxy
+  - m_Name: HAP/BlinkRight/Proxy
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: HAP/Blink/LeftOverride
+  - m_Name: HAP/BlinkLeftOverride
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: HAP/Blink/RightOverride
+  - m_Name: HAP/BlinkRightOverride
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -778,7 +772,7 @@ BlendTree:
     m_CycleOffset: 0
     m_DirectBlendParameter: Blend
     m_Mirror: 0
-  m_BlendParameter: HAP/Blink/RightOverride
+  m_BlendParameter: HAP/BlinkRightOverride
   m_BlendParameterY: Blend
   m_MinThreshold: 0
   m_MaxThreshold: 1
@@ -824,8 +818,8 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: HAP/Blink/Enabled
+  - m_ConditionMode: 3
+    m_ConditionEvent: weight
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 4521031400025478615}
@@ -908,7 +902,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/Blink/Left/Pass
+    m_DirectBlendParameter: _HAP/BlinkLeft/Pass
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: a390874a6d18478899aba2834f65a33d, type: 2}
@@ -916,7 +910,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/Blink/Right/Pass
+    m_DirectBlendParameter: _HAP/BlinkRight/Pass
     m_Mirror: 0
   m_BlendParameter: weight
   m_BlendParameterY: Blend

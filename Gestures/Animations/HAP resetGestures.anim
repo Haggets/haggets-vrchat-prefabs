@@ -54,7 +54,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Gesture/Left
+    attribute: HAP/GestureLeft
     path: 
     classID: 95
     script: {fileID: 0}
@@ -75,7 +75,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Gesture/LeftWeight/Proxy
+    attribute: HAP/GestureLeftWeight/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -96,7 +96,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/Gesture/LeftWeight/Pass
+    attribute: _HAP/GestureLeftWeight/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -117,7 +117,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Gesture/Left/Neutral/Proxy
+    attribute: HAP/GestureLeft/Neutral/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -138,7 +138,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/Gesture/Left/Neutral/Pass
+    attribute: _HAP/GestureLeft/Neutral/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -159,7 +159,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Gesture/Left/Fist/Proxy
+    attribute: HAP/GestureLeft/Fist/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -180,7 +180,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/Gesture/Left/Fist/Pass
+    attribute: _HAP/GestureLeft/Fist/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -201,7 +201,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Gesture/Left/HandOpen/Proxy
+    attribute: HAP/GestureLeft/HandOpen/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -222,7 +222,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/Gesture/Left/HandOpen/Pass
+    attribute: _HAP/GestureLeft/HandOpen/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -243,7 +243,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Gesture/Left/FingerPoint/Proxy
+    attribute: HAP/GestureLeft/FingerPoint/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -264,7 +264,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/Gesture/Left/FingerPoint/Pass
+    attribute: _HAP/GestureLeft/FingerPoint/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -285,7 +285,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Gesture/Left/Victory/Proxy
+    attribute: HAP/GestureLeft/Victory/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -306,7 +306,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/Gesture/Left/Victory/Pass
+    attribute: _HAP/GestureLeft/Victory/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -327,7 +327,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Gesture/Left/RockNRoll/Proxy
+    attribute: HAP/GestureLeft/RockNRoll/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -348,7 +348,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/Gesture/Left/RockNRoll/Pass
+    attribute: _HAP/GestureLeft/RockNRoll/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -369,7 +369,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Gesture/Left/HandGun/Proxy
+    attribute: HAP/GestureLeft/HandGun/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -390,7 +390,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/Gesture/Left/HandGun/Pass
+    attribute: _HAP/GestureLeft/HandGun/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -411,7 +411,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Gesture/Left/ThumbsUp/Proxy
+    attribute: HAP/GestureLeft/ThumbsUp/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -432,7 +432,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/Gesture/Left/ThumbsUp/Pass
+    attribute: _HAP/GestureLeft/ThumbsUp/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -453,7 +453,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Gesture/Right
+    attribute: HAP/GestureRight
     path: 
     classID: 95
     script: {fileID: 0}
@@ -474,7 +474,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Gesture/RightWeight/Proxy
+    attribute: HAP/GestureRightWeight/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -495,7 +495,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/Gesture/RightWeight/Pass
+    attribute: _HAP/GestureRightWeight/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -516,7 +516,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Gesture/Right/Neutral/Proxy
+    attribute: HAP/GestureRight/Neutral/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -537,7 +537,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/Gesture/Right/Neutral/Pass
+    attribute: _HAP/GestureRight/Neutral/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -558,7 +558,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Gesture/Right/Fist/Proxy
+    attribute: HAP/GestureRight/Fist/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -579,7 +579,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/Gesture/Right/Fist/Pass
+    attribute: _HAP/GestureRight/Fist/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -600,7 +600,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Gesture/Right/HandOpen/Proxy
+    attribute: HAP/GestureRight/HandOpen/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -621,7 +621,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/Gesture/Right/HandOpen/Pass
+    attribute: _HAP/GestureRight/HandOpen/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -642,7 +642,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Gesture/Right/FingerPoint/Proxy
+    attribute: HAP/GestureRight/FingerPoint/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -663,7 +663,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/Gesture/Right/FingerPoint/Pass
+    attribute: _HAP/GestureRight/FingerPoint/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -684,7 +684,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Gesture/Right/Victory/Proxy
+    attribute: HAP/GestureRight/Victory/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -705,7 +705,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/Gesture/Right/Victory/Pass
+    attribute: _HAP/GestureRight/Victory/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -726,7 +726,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Gesture/Right/RockNRoll/Proxy
+    attribute: HAP/GestureRight/RockNRoll/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -747,7 +747,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/Gesture/Right/RockNRoll/Pass
+    attribute: _HAP/GestureRight/RockNRoll/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -768,7 +768,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Gesture/Right/HandGun/Proxy
+    attribute: HAP/GestureRight/HandGun/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -789,7 +789,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/Gesture/Right/HandGun/Pass
+    attribute: _HAP/GestureRight/HandGun/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -810,7 +810,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Gesture/Right/ThumbsUp/Proxy
+    attribute: HAP/GestureRight/ThumbsUp/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -831,7 +831,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/Gesture/Right/ThumbsUp/Pass
+    attribute: _HAP/GestureRight/ThumbsUp/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -855,7 +855,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 3680825583
+      attribute: 382226033
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -864,7 +864,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 1671161128
+      attribute: 291827695
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -873,7 +873,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 413839567
+      attribute: 1549608629
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -882,7 +882,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 2246153788
+      attribute: 3784264788
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -891,7 +891,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 169904912
+      attribute: 3332139242
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -900,7 +900,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 1533882352
+      attribute: 2734714166
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -909,7 +909,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 2318956753
+      attribute: 2038657469
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -918,7 +918,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 130540999
+      attribute: 1154114167
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -927,7 +927,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 493735119
+      attribute: 1086941998
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -936,7 +936,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 710419823
+      attribute: 3849693453
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -945,7 +945,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 3744334755
+      attribute: 1207170230
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -954,7 +954,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 3002171397
+      attribute: 3600767597
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -963,7 +963,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 3255649019
+      attribute: 246522113
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -972,7 +972,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 3894991001
+      attribute: 587884178
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -981,7 +981,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 3005041013
+      attribute: 1682784060
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -990,7 +990,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 2276662172
+      attribute: 3822961140
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -999,7 +999,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 893264339
+      attribute: 4186096169
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -1008,7 +1008,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 4224726354
+      attribute: 3101536994
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -1017,7 +1017,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 3006604692
+      attribute: 4002513525
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -1026,7 +1026,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 3350683776
+      attribute: 3503125117
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -1035,7 +1035,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 513303082
+      attribute: 468372019
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -1044,7 +1044,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 3738723891
+      attribute: 1850476935
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -1053,7 +1053,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 3289095998
+      attribute: 2265323662
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -1062,7 +1062,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 3717829682
+      attribute: 2151494611
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -1071,7 +1071,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 1601477759
+      attribute: 764122808
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -1080,7 +1080,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 4097259243
+      attribute: 2965414033
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -1089,7 +1089,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 3918032610
+      attribute: 581619945
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -1098,7 +1098,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 3369743412
+      attribute: 529154685
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -1107,7 +1107,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 717929483
+      attribute: 2310640115
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -1116,7 +1116,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 4024423133
+      attribute: 2191190977
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -1125,7 +1125,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 4078668039
+      attribute: 2954235575
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -1134,7 +1134,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 364142041
+      attribute: 1209072184
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -1143,7 +1143,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 2747417429
+      attribute: 886814819
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -1152,7 +1152,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 2577913113
+      attribute: 2523954267
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -1161,7 +1161,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 3327726238
+      attribute: 2236912942
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -1170,7 +1170,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 3800514289
+      attribute: 3206781200
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -1179,7 +1179,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 362790519
+      attribute: 3736928380
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -1188,7 +1188,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 1719852399
+      attribute: 2983373606
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -1254,7 +1254,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Gesture/Left
+    attribute: HAP/GestureLeft
     path: 
     classID: 95
     script: {fileID: 0}
@@ -1275,7 +1275,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Gesture/LeftWeight/Proxy
+    attribute: HAP/GestureLeftWeight/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -1296,7 +1296,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/Gesture/LeftWeight/Pass
+    attribute: _HAP/GestureLeftWeight/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -1317,7 +1317,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Gesture/Left/Neutral/Proxy
+    attribute: HAP/GestureLeft/Neutral/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -1338,7 +1338,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/Gesture/Left/Neutral/Pass
+    attribute: _HAP/GestureLeft/Neutral/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -1359,7 +1359,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Gesture/Left/Fist/Proxy
+    attribute: HAP/GestureLeft/Fist/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -1380,7 +1380,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/Gesture/Left/Fist/Pass
+    attribute: _HAP/GestureLeft/Fist/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -1401,7 +1401,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Gesture/Left/HandOpen/Proxy
+    attribute: HAP/GestureLeft/HandOpen/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -1422,7 +1422,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/Gesture/Left/HandOpen/Pass
+    attribute: _HAP/GestureLeft/HandOpen/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -1443,7 +1443,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Gesture/Left/FingerPoint/Proxy
+    attribute: HAP/GestureLeft/FingerPoint/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -1464,7 +1464,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/Gesture/Left/FingerPoint/Pass
+    attribute: _HAP/GestureLeft/FingerPoint/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -1485,7 +1485,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Gesture/Left/Victory/Proxy
+    attribute: HAP/GestureLeft/Victory/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -1506,7 +1506,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/Gesture/Left/Victory/Pass
+    attribute: _HAP/GestureLeft/Victory/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -1527,7 +1527,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Gesture/Left/RockNRoll/Proxy
+    attribute: HAP/GestureLeft/RockNRoll/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -1548,7 +1548,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/Gesture/Left/RockNRoll/Pass
+    attribute: _HAP/GestureLeft/RockNRoll/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -1569,7 +1569,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Gesture/Left/HandGun/Proxy
+    attribute: HAP/GestureLeft/HandGun/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -1590,7 +1590,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/Gesture/Left/HandGun/Pass
+    attribute: _HAP/GestureLeft/HandGun/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -1611,7 +1611,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Gesture/Left/ThumbsUp/Proxy
+    attribute: HAP/GestureLeft/ThumbsUp/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -1632,7 +1632,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/Gesture/Left/ThumbsUp/Pass
+    attribute: _HAP/GestureLeft/ThumbsUp/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -1653,7 +1653,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Gesture/Right
+    attribute: HAP/GestureRight
     path: 
     classID: 95
     script: {fileID: 0}
@@ -1674,7 +1674,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Gesture/RightWeight/Proxy
+    attribute: HAP/GestureRightWeight/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -1695,7 +1695,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/Gesture/RightWeight/Pass
+    attribute: _HAP/GestureRightWeight/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -1716,7 +1716,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Gesture/Right/Neutral/Proxy
+    attribute: HAP/GestureRight/Neutral/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -1737,7 +1737,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/Gesture/Right/Neutral/Pass
+    attribute: _HAP/GestureRight/Neutral/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -1758,7 +1758,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Gesture/Right/Fist/Proxy
+    attribute: HAP/GestureRight/Fist/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -1779,7 +1779,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/Gesture/Right/Fist/Pass
+    attribute: _HAP/GestureRight/Fist/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -1800,7 +1800,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Gesture/Right/HandOpen/Proxy
+    attribute: HAP/GestureRight/HandOpen/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -1821,7 +1821,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/Gesture/Right/HandOpen/Pass
+    attribute: _HAP/GestureRight/HandOpen/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -1842,7 +1842,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Gesture/Right/FingerPoint/Proxy
+    attribute: HAP/GestureRight/FingerPoint/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -1863,7 +1863,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/Gesture/Right/FingerPoint/Pass
+    attribute: _HAP/GestureRight/FingerPoint/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -1884,7 +1884,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Gesture/Right/Victory/Proxy
+    attribute: HAP/GestureRight/Victory/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -1905,7 +1905,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/Gesture/Right/Victory/Pass
+    attribute: _HAP/GestureRight/Victory/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -1926,7 +1926,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Gesture/Right/RockNRoll/Proxy
+    attribute: HAP/GestureRight/RockNRoll/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -1947,7 +1947,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/Gesture/Right/RockNRoll/Pass
+    attribute: _HAP/GestureRight/RockNRoll/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -1968,7 +1968,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Gesture/Right/HandGun/Proxy
+    attribute: HAP/GestureRight/HandGun/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -1989,7 +1989,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/Gesture/Right/HandGun/Pass
+    attribute: _HAP/GestureRight/HandGun/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -2010,7 +2010,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Gesture/Right/ThumbsUp/Proxy
+    attribute: HAP/GestureRight/ThumbsUp/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -2031,7 +2031,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/Gesture/Right/ThumbsUp/Pass
+    attribute: _HAP/GestureRight/ThumbsUp/Pass
     path: 
     classID: 95
     script: {fileID: 0}

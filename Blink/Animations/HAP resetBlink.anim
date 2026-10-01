@@ -33,7 +33,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/Blink/Left/Pass
+    attribute: _HAP/BlinkLeft/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -54,7 +54,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Blink/LeftOverride
+    attribute: HAP/BlinkLeftOverride
     path: 
     classID: 95
     script: {fileID: 0}
@@ -75,7 +75,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/Blink/Right/Pass
+    attribute: _HAP/BlinkRight/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -96,7 +96,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Blink/RightOverride
+    attribute: HAP/BlinkRightOverride
     path: 
     classID: 95
     script: {fileID: 0}
@@ -117,7 +117,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Blink/Left/Proxy
+    attribute: HAP/BlinkLeft/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -138,7 +138,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Blink/Right/Proxy
+    attribute: HAP/BlinkRight/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -174,7 +174,7 @@ AnimationClip:
     genericBindings:
     - serializedVersion: 2
       path: 0
-      attribute: 4057772291
+      attribute: 3671784945
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -183,7 +183,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 1040833769
+      attribute: 3285781181
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -192,7 +192,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 2073006491
+      attribute: 672597223
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -201,7 +201,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 1763549362
+      attribute: 99018121
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -210,7 +210,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 1803968133
+      attribute: 4188236860
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -219,7 +219,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 2115476811
+      attribute: 3426267985
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -273,7 +273,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/Blink/Left/Pass
+    attribute: _HAP/BlinkLeft/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -294,7 +294,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Blink/LeftOverride
+    attribute: HAP/BlinkLeftOverride
     path: 
     classID: 95
     script: {fileID: 0}
@@ -315,7 +315,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/Blink/Right/Pass
+    attribute: _HAP/BlinkRight/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -336,7 +336,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Blink/RightOverride
+    attribute: HAP/BlinkRightOverride
     path: 
     classID: 95
     script: {fileID: 0}
@@ -357,7 +357,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Blink/Left/Proxy
+    attribute: HAP/BlinkLeft/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -378,7 +378,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/Blink/Right/Proxy
+    attribute: HAP/BlinkRight/Proxy
     path: 
     classID: 95
     script: {fileID: 0}

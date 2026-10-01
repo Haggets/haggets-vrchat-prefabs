@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isEmpty: 0
   parameters:
-  - name: HAP/Gesture/LeftOverride
+  - name: HAP/GestureLeftOverride
     valueType: 0
     saved: 0
     defaultValue: 0
     networkSynced: 1
-  - name: HAP/Gesture/RightOverride
+  - name: HAP/GestureRightOverride
     valueType: 0
     saved: 0
     defaultValue: 0

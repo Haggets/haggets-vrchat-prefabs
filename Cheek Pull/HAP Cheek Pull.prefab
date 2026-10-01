@@ -68,13 +68,7 @@ MonoBehaviour:
             objRef: {fileID: 9100000, guid: fbeff95ef7dc4790941bde1dcb3ddfea, type: 2}
           type: 5
         menus: []
-        prms:
-        - parameters:
-            version: 1
-            fileID: 0
-            guid: 
-            id: b980e7e22d1e4cd3b0f534abca1324fa|Packages/com.haggets.hap/Cheek Pull/HAP cheekPullParams.asset
-            objRef: {fileID: 11400000, guid: b980e7e22d1e4cd3b0f534abca1324fa, type: 2}
+        prms: []
         smoothedPrms: []
         globalParams:
         - 'HAP/*'

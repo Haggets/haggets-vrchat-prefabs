@@ -33,7 +33,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/CheekPull/Left/Proxy
+    attribute: HAP/CheekPullLeft/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -48,7 +48,7 @@ AnimationClip:
     genericBindings:
     - serializedVersion: 2
       path: 0
-      attribute: 1019951735
+      attribute: 3698506568
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -93,7 +93,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/CheekPull/Left/Proxy
+    attribute: HAP/CheekPullLeft/Proxy
     path: 
     classID: 95
     script: {fileID: 0}

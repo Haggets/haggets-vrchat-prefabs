@@ -69,13 +69,7 @@ MonoBehaviour:
             objRef: {fileID: 9100000, guid: c71881aa698d429db3f2323d2ff8220b, type: 2}
           type: 5
         menus: []
-        prms:
-        - parameters:
-            version: 1
-            fileID: 0
-            guid: 
-            id: 02f605f9ce684d63a3b05e1d40c806b6|Packages/com.haggets.hap/Head Pat/HAP headPatParams.asset
-            objRef: {fileID: 11400000, guid: 02f605f9ce684d63a3b05e1d40c806b6, type: 2}
+        prms: []
         smoothedPrms: []
         globalParams:
         - 'HAP/*'

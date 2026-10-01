@@ -37,7 +37,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: HAP/Gesture/LeftOverride
+    m_DirectBlendParameter: HAP/GestureLeftOverride
     m_Mirror: 0
   m_BlendParameter: weight
   m_BlendParameterY: weight
@@ -70,8 +70,8 @@ BlendTree:
     m_CycleOffset: 0
     m_DirectBlendParameter: weight
     m_Mirror: 0
-  m_BlendParameter: HAP/Gesture/LeftOverride
-  m_BlendParameterY: HAP/Gesture/LeftOverride
+  m_BlendParameter: HAP/GestureLeftOverride
+  m_BlendParameterY: HAP/GestureLeftOverride
   m_MinThreshold: 0
   m_MaxThreshold: 1
   m_UseAutomaticThresholds: 0
@@ -114,7 +114,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: HAP/Gesture/RightOverride
+    m_DirectBlendParameter: HAP/GestureRightOverride
     m_Mirror: 0
   m_BlendParameter: weight
   m_BlendParameterY: weight
@@ -147,8 +147,8 @@ BlendTree:
     m_CycleOffset: 0
     m_DirectBlendParameter: weight
     m_Mirror: 0
-  m_BlendParameter: HAP/Gesture/RightOverride
-  m_BlendParameterY: HAP/Gesture/RightOverride
+  m_BlendParameter: HAP/GestureRightOverride
+  m_BlendParameterY: HAP/GestureRightOverride
   m_MinThreshold: 0
   m_MaxThreshold: 1
   m_UseAutomaticThresholds: 0
@@ -199,7 +199,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/Gesture/Left/Neutral/Pass
+    m_DirectBlendParameter: _HAP/GestureLeft/Neutral/Pass
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 3b470f46047d4df7a869b39722474b0a, type: 2}
@@ -207,7 +207,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: HAP/Gesture/Left/Neutral/Proxy
+    m_DirectBlendParameter: HAP/GestureLeft/Neutral/Proxy
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: f6dae4497ad8421d9eed0cd6571d328c, type: 2}
@@ -215,7 +215,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/Gesture/Left/Fist/Pass
+    m_DirectBlendParameter: _HAP/GestureLeft/Fist/Pass
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: b01a82b4184a4ce690cfacfba84b5e1b, type: 2}
@@ -223,7 +223,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: HAP/Gesture/Left/Fist/Proxy
+    m_DirectBlendParameter: HAP/GestureLeft/Fist/Proxy
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 49dab9bd826e415eab9c540e4df74e00, type: 2}
@@ -231,7 +231,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/Gesture/Left/HandOpen/Pass
+    m_DirectBlendParameter: _HAP/GestureLeft/HandOpen/Pass
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 4f1ab23ff7c2456c8a7f12bb2217ac1e, type: 2}
@@ -239,7 +239,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: HAP/Gesture/Left/HandOpen/Proxy
+    m_DirectBlendParameter: HAP/GestureLeft/HandOpen/Proxy
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 63bff8aa684d484f9a176c3db0d8f0ee, type: 2}
@@ -247,7 +247,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/Gesture/Left/FingerPoint/Pass
+    m_DirectBlendParameter: _HAP/GestureLeft/FingerPoint/Pass
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: a75db756084947589e374a1df139013e, type: 2}
@@ -255,7 +255,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: HAP/Gesture/Left/FingerPoint/Proxy
+    m_DirectBlendParameter: HAP/GestureLeft/FingerPoint/Proxy
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 8f43c2f1de7f4670a5e06901429c7a2b, type: 2}
@@ -263,7 +263,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/Gesture/Left/Victory/Pass
+    m_DirectBlendParameter: _HAP/GestureLeft/Victory/Pass
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 8cef7de4648f4738bd17dd06b61e4434, type: 2}
@@ -271,7 +271,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: HAP/Gesture/Left/Victory/Proxy
+    m_DirectBlendParameter: HAP/GestureLeft/Victory/Proxy
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: f48585ecca88440fa135c7e191906297, type: 2}
@@ -279,7 +279,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/Gesture/Left/RockNRoll/Pass
+    m_DirectBlendParameter: _HAP/GestureLeft/RockNRoll/Pass
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 968f9620607c48ae9d6d9f49a4d27c4b, type: 2}
@@ -287,7 +287,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: HAP/Gesture/Left/RockNRoll/Proxy
+    m_DirectBlendParameter: HAP/GestureLeft/RockNRoll/Proxy
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 50f0116526974902bf76032c294fe3de, type: 2}
@@ -295,7 +295,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/Gesture/Left/HandGun/Pass
+    m_DirectBlendParameter: _HAP/GestureLeft/HandGun/Pass
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: a2901de5a9e64199bf8432a915c5f89c, type: 2}
@@ -303,7 +303,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: HAP/Gesture/Left/HandGun/Proxy
+    m_DirectBlendParameter: HAP/GestureLeft/HandGun/Proxy
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: a1d446dd6d12405384fb880c1d2d049b, type: 2}
@@ -311,7 +311,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/Gesture/Left/ThumbsUp/Pass
+    m_DirectBlendParameter: _HAP/GestureLeft/ThumbsUp/Pass
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 7e0241fa9466441a95c583e7fa9c1b74, type: 2}
@@ -319,7 +319,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: HAP/Gesture/Left/ThumbsUp/Proxy
+    m_DirectBlendParameter: HAP/GestureLeft/ThumbsUp/Proxy
     m_Mirror: 0
   m_BlendParameter: weight
   m_BlendParameterY: weight
@@ -342,7 +342,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/Gesture/LeftWeight/Pass
+    m_DirectBlendParameter: _HAP/GestureLeftWeight/Pass
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 0c582134176d4991a193c96436e0a88a, type: 2}
@@ -350,7 +350,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: HAP/Gesture/LeftWeight/Proxy
+    m_DirectBlendParameter: HAP/GestureLeftWeight/Proxy
     m_Mirror: 0
   m_BlendParameter: weight
   m_BlendParameterY: weight
@@ -431,8 +431,8 @@ BlendTree:
     m_CycleOffset: 0
     m_DirectBlendParameter: weight
     m_Mirror: 0
-  m_BlendParameter: HAP/Gesture/Left
-  m_BlendParameterY: HAP/Gesture/Left
+  m_BlendParameter: HAP/GestureLeft
+  m_BlendParameterY: HAP/GestureLeft
   m_MinThreshold: 0
   m_MaxThreshold: 7
   m_UseAutomaticThresholds: 0
@@ -460,7 +460,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/Gesture/Left/Neutral/Pass
+    m_DirectBlendParameter: _HAP/GestureLeft/Neutral/Pass
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: b01a82b4184a4ce690cfacfba84b5e1b, type: 2}
@@ -468,7 +468,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/Gesture/Left/Fist/Pass
+    m_DirectBlendParameter: _HAP/GestureLeft/Fist/Pass
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 4f1ab23ff7c2456c8a7f12bb2217ac1e, type: 2}
@@ -476,7 +476,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/Gesture/Left/HandOpen/Pass
+    m_DirectBlendParameter: _HAP/GestureLeft/HandOpen/Pass
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: a75db756084947589e374a1df139013e, type: 2}
@@ -484,7 +484,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/Gesture/Left/FingerPoint/Pass
+    m_DirectBlendParameter: _HAP/GestureLeft/FingerPoint/Pass
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 8cef7de4648f4738bd17dd06b61e4434, type: 2}
@@ -492,7 +492,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/Gesture/Left/Victory/Pass
+    m_DirectBlendParameter: _HAP/GestureLeft/Victory/Pass
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 968f9620607c48ae9d6d9f49a4d27c4b, type: 2}
@@ -500,7 +500,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/Gesture/Left/RockNRoll/Pass
+    m_DirectBlendParameter: _HAP/GestureLeft/RockNRoll/Pass
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: a2901de5a9e64199bf8432a915c5f89c, type: 2}
@@ -508,7 +508,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/Gesture/Left/HandGun/Pass
+    m_DirectBlendParameter: _HAP/GestureLeft/HandGun/Pass
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 7e0241fa9466441a95c583e7fa9c1b74, type: 2}
@@ -516,7 +516,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/Gesture/Left/ThumbsUp/Pass
+    m_DirectBlendParameter: _HAP/GestureLeft/ThumbsUp/Pass
     m_Mirror: 0
   m_BlendParameter: weight
   m_BlendParameterY: weight
@@ -580,8 +580,8 @@ BlendTree:
     m_CycleOffset: 0
     m_DirectBlendParameter: weight
     m_Mirror: 0
-  m_BlendParameter: HAP/Gesture/LeftOverride
-  m_BlendParameterY: HAP/Gesture/LeftOverride
+  m_BlendParameter: HAP/GestureLeftOverride
+  m_BlendParameterY: HAP/GestureLeftOverride
   m_MinThreshold: 0
   m_MaxThreshold: 1
   m_UseAutomaticThresholds: 0
@@ -609,7 +609,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/Gesture/LeftWeight/Pass
+    m_DirectBlendParameter: _HAP/GestureLeftWeight/Pass
     m_Mirror: 0
   m_BlendParameter: weight
   m_BlendParameterY: weight
@@ -632,7 +632,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/Gesture/Right/Neutral/Pass
+    m_DirectBlendParameter: _HAP/GestureRight/Neutral/Pass
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: bc6bb038617d478185f62e90796ef629, type: 2}
@@ -640,7 +640,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: HAP/Gesture/Right/Neutral/Proxy
+    m_DirectBlendParameter: HAP/GestureRight/Neutral/Proxy
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 33b5e110de8c475fb8b99d6e80eaa91c, type: 2}
@@ -648,7 +648,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/Gesture/Right/Fist/Pass
+    m_DirectBlendParameter: _HAP/GestureRight/Fist/Pass
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: ab9e690c4c3945d6a344948688bdeb28, type: 2}
@@ -656,7 +656,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: HAP/Gesture/Right/Fist/Proxy
+    m_DirectBlendParameter: HAP/GestureRight/Fist/Proxy
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: c6352709239048e8a2e27c6b7429b563, type: 2}
@@ -664,7 +664,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/Gesture/Right/HandOpen/Pass
+    m_DirectBlendParameter: _HAP/GestureRight/HandOpen/Pass
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: f0e235a790e645fc9d3487190f969fd5, type: 2}
@@ -672,7 +672,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: HAP/Gesture/Right/HandOpen/Proxy
+    m_DirectBlendParameter: HAP/GestureRight/HandOpen/Proxy
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: b0753f1d5d8e40b3a5cfca78fb919913, type: 2}
@@ -680,7 +680,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/Gesture/Right/FingerPoint/Pass
+    m_DirectBlendParameter: _HAP/GestureRight/FingerPoint/Pass
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 5148b3be6a6c47da933b0703f65f5f9c, type: 2}
@@ -688,7 +688,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: HAP/Gesture/Right/FingerPoint/Proxy
+    m_DirectBlendParameter: HAP/GestureRight/FingerPoint/Proxy
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: d66b32887e5444ef94aa391fe80d672a, type: 2}
@@ -696,7 +696,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/Gesture/Right/Victory/Pass
+    m_DirectBlendParameter: _HAP/GestureRight/Victory/Pass
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: cfd80f31fa5d4b689a6e44c7faf4a146, type: 2}
@@ -704,7 +704,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: HAP/Gesture/Right/Victory/Proxy
+    m_DirectBlendParameter: HAP/GestureRight/Victory/Proxy
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: ab0b8de59a114a7bb270f027b61cd317, type: 2}
@@ -712,7 +712,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/Gesture/Right/RockNRoll/Pass
+    m_DirectBlendParameter: _HAP/GestureRight/RockNRoll/Pass
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: bf8c40bdd88048f58abf570acc8db981, type: 2}
@@ -720,7 +720,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: HAP/Gesture/Right/RockNRoll/Proxy
+    m_DirectBlendParameter: HAP/GestureRight/RockNRoll/Proxy
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 4bdbdd77f344407a864e73add7e51d68, type: 2}
@@ -728,7 +728,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/Gesture/Right/HandGun/Pass
+    m_DirectBlendParameter: _HAP/GestureRight/HandGun/Pass
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 362f12ff99e040d9958c48b879113bca, type: 2}
@@ -736,7 +736,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: HAP/Gesture/Right/HandGun/Proxy
+    m_DirectBlendParameter: HAP/GestureRight/HandGun/Proxy
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: eb28ec9aa2c94c7681cadf2557cd919e, type: 2}
@@ -744,7 +744,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/Gesture/Right/ThumbsUp/Pass
+    m_DirectBlendParameter: _HAP/GestureRight/ThumbsUp/Pass
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 2c216b95ef2841ec8aec6316eab2d524, type: 2}
@@ -752,7 +752,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: HAP/Gesture/Right/ThumbsUp/Proxy
+    m_DirectBlendParameter: HAP/GestureRight/ThumbsUp/Proxy
     m_Mirror: 0
   m_BlendParameter: weight
   m_BlendParameterY: weight
@@ -775,7 +775,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/Gesture/RightWeight/Pass
+    m_DirectBlendParameter: _HAP/GestureRightWeight/Pass
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 31fcd0d771fc44d1b231672019d2f4e9, type: 2}
@@ -783,7 +783,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: HAP/Gesture/RightWeight/Proxy
+    m_DirectBlendParameter: HAP/GestureRightWeight/Proxy
     m_Mirror: 0
   m_BlendParameter: weight
   m_BlendParameterY: weight
@@ -864,8 +864,8 @@ BlendTree:
     m_CycleOffset: 0
     m_DirectBlendParameter: weight
     m_Mirror: 0
-  m_BlendParameter: HAP/Gesture/Right
-  m_BlendParameterY: HAP/Gesture/Right
+  m_BlendParameter: HAP/GestureRight
+  m_BlendParameterY: HAP/GestureRight
   m_MinThreshold: 0
   m_MaxThreshold: 7
   m_UseAutomaticThresholds: 0
@@ -893,7 +893,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/Gesture/Right/Neutral/Pass
+    m_DirectBlendParameter: _HAP/GestureRight/Neutral/Pass
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: ab9e690c4c3945d6a344948688bdeb28, type: 2}
@@ -901,7 +901,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/Gesture/Right/Fist/Pass
+    m_DirectBlendParameter: _HAP/GestureRight/Fist/Pass
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: f0e235a790e645fc9d3487190f969fd5, type: 2}
@@ -909,7 +909,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/Gesture/Right/HandOpen/Pass
+    m_DirectBlendParameter: _HAP/GestureRight/HandOpen/Pass
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 5148b3be6a6c47da933b0703f65f5f9c, type: 2}
@@ -917,7 +917,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/Gesture/Right/FingerPoint/Pass
+    m_DirectBlendParameter: _HAP/GestureRight/FingerPoint/Pass
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: cfd80f31fa5d4b689a6e44c7faf4a146, type: 2}
@@ -925,7 +925,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/Gesture/Right/Victory/Pass
+    m_DirectBlendParameter: _HAP/GestureRight/Victory/Pass
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: bf8c40bdd88048f58abf570acc8db981, type: 2}
@@ -933,7 +933,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/Gesture/Right/RockNRoll/Pass
+    m_DirectBlendParameter: _HAP/GestureRight/RockNRoll/Pass
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 362f12ff99e040d9958c48b879113bca, type: 2}
@@ -941,7 +941,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/Gesture/Right/HandGun/Pass
+    m_DirectBlendParameter: _HAP/GestureRight/HandGun/Pass
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 2c216b95ef2841ec8aec6316eab2d524, type: 2}
@@ -949,7 +949,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/Gesture/Right/ThumbsUp/Pass
+    m_DirectBlendParameter: _HAP/GestureRight/ThumbsUp/Pass
     m_Mirror: 0
   m_BlendParameter: weight
   m_BlendParameterY: weight
@@ -1013,8 +1013,8 @@ BlendTree:
     m_CycleOffset: 0
     m_DirectBlendParameter: weight
     m_Mirror: 0
-  m_BlendParameter: HAP/Gesture/RightOverride
-  m_BlendParameterY: HAP/Gesture/RightOverride
+  m_BlendParameter: HAP/GestureRightOverride
+  m_BlendParameterY: HAP/GestureRightOverride
   m_MinThreshold: 0
   m_MaxThreshold: 1
   m_UseAutomaticThresholds: 0
@@ -1042,7 +1042,7 @@ BlendTree:
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: _HAP/Gesture/RightWeight/Pass
+    m_DirectBlendParameter: _HAP/GestureRightWeight/Pass
     m_Mirror: 0
   m_BlendParameter: weight
   m_BlendParameterY: weight
@@ -1338,109 +1338,109 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: _HAP/Gesture/Left/Neutral/Pass
+  - m_Name: _HAP/GestureLeft/Neutral/Pass
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: _HAP/Gesture/Left/Fist/Pass
+  - m_Name: _HAP/GestureLeft/Fist/Pass
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: _HAP/Gesture/Left/HandOpen/Pass
+  - m_Name: _HAP/GestureLeft/HandOpen/Pass
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: _HAP/Gesture/Left/FingerPoint/Pass
+  - m_Name: _HAP/GestureLeft/FingerPoint/Pass
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: _HAP/Gesture/Left/Victory/Pass
+  - m_Name: _HAP/GestureLeft/Victory/Pass
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: _HAP/Gesture/Left/RockNRoll/Pass
+  - m_Name: _HAP/GestureLeft/RockNRoll/Pass
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: _HAP/Gesture/Left/HandGun/Pass
+  - m_Name: _HAP/GestureLeft/HandGun/Pass
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: _HAP/Gesture/Left/ThumbsUp/Pass
+  - m_Name: _HAP/GestureLeft/ThumbsUp/Pass
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: _HAP/Gesture/LeftWeight/Pass
+  - m_Name: _HAP/GestureLeftWeight/Pass
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: _HAP/Gesture/Right/Neutral/Pass
+  - m_Name: _HAP/GestureRight/Neutral/Pass
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: _HAP/Gesture/Right/Fist/Pass
+  - m_Name: _HAP/GestureRight/Fist/Pass
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: _HAP/Gesture/Right/HandOpen/Pass
+  - m_Name: _HAP/GestureRight/HandOpen/Pass
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: _HAP/Gesture/Right/FingerPoint/Pass
+  - m_Name: _HAP/GestureRight/FingerPoint/Pass
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: _HAP/Gesture/Right/Victory/Pass
+  - m_Name: _HAP/GestureRight/Victory/Pass
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: _HAP/Gesture/Right/RockNRoll/Pass
+  - m_Name: _HAP/GestureRight/RockNRoll/Pass
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: _HAP/Gesture/Right/HandGun/Pass
+  - m_Name: _HAP/GestureRight/HandGun/Pass
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: _HAP/Gesture/Right/ThumbsUp/Pass
+  - m_Name: _HAP/GestureRight/ThumbsUp/Pass
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: _HAP/Gesture/RightWeight/Pass
+  - m_Name: _HAP/GestureRightWeight/Pass
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -1476,133 +1476,133 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: HAP/Gesture/LeftOverride
+  - m_Name: HAP/GestureLeftOverride
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: HAP/Gesture/Left
+  - m_Name: HAP/GestureLeft
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: HAP/Gesture/Left/Neutral/Proxy
+  - m_Name: HAP/GestureLeft/Neutral/Proxy
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: HAP/Gesture/Left/Fist/Proxy
+  - m_Name: HAP/GestureLeft/Fist/Proxy
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: HAP/Gesture/Left/HandOpen/Proxy
+  - m_Name: HAP/GestureLeft/HandOpen/Proxy
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: HAP/Gesture/Left/FingerPoint/Proxy
+  - m_Name: HAP/GestureLeft/FingerPoint/Proxy
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: HAP/Gesture/Left/Victory/Proxy
+  - m_Name: HAP/GestureLeft/Victory/Proxy
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: HAP/Gesture/Left/RockNRoll/Proxy
+  - m_Name: HAP/GestureLeft/RockNRoll/Proxy
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: HAP/Gesture/Left/HandGun/Proxy
+  - m_Name: HAP/GestureLeft/HandGun/Proxy
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: HAP/Gesture/Left/ThumbsUp/Proxy
+  - m_Name: HAP/GestureLeft/ThumbsUp/Proxy
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: HAP/Gesture/LeftWeight/Proxy
+  - m_Name: HAP/GestureLeftWeight/Proxy
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: HAP/Gesture/RightOverride
+  - m_Name: HAP/GestureRightOverride
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: HAP/Gesture/Right
+  - m_Name: HAP/GestureRight
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: HAP/Gesture/Right/Neutral/Proxy
+  - m_Name: HAP/GestureRight/Neutral/Proxy
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: HAP/Gesture/Right/Fist/Proxy
+  - m_Name: HAP/GestureRight/Fist/Proxy
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: HAP/Gesture/Right/HandOpen/Proxy
+  - m_Name: HAP/GestureRight/HandOpen/Proxy
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: HAP/Gesture/Right/FingerPoint/Proxy
+  - m_Name: HAP/GestureRight/FingerPoint/Proxy
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: HAP/Gesture/Right/Victory/Proxy
+  - m_Name: HAP/GestureRight/Victory/Proxy
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: HAP/Gesture/Right/RockNRoll/Proxy
+  - m_Name: HAP/GestureRight/RockNRoll/Proxy
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: HAP/Gesture/Right/HandGun/Proxy
+  - m_Name: HAP/GestureRight/HandGun/Proxy
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: HAP/Gesture/Right/ThumbsUp/Proxy
+  - m_Name: HAP/GestureRight/ThumbsUp/Proxy
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: HAP/Gesture/RightWeight/Proxy
+  - m_Name: HAP/GestureRightWeight/Proxy
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0

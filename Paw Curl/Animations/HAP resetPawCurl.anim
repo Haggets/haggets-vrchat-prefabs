@@ -54,7 +54,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/PawCurl/Left/Proxy
+    attribute: HAP/PawCurlLeft/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -75,7 +75,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/PawCurl/Left/Pass
+    attribute: _HAP/PawCurlLeft/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -96,7 +96,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/PawCurl/Right/Proxy
+    attribute: HAP/PawCurlRight/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -117,7 +117,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/PawCurl/Right/Pass
+    attribute: _HAP/PawCurlRight/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -141,7 +141,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 195882246
+      attribute: 1671314083
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -150,7 +150,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 1100204993
+      attribute: 1161305483
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -159,7 +159,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 180774242
+      attribute: 2886861010
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -168,7 +168,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 240483709
+      attribute: 2555936293
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -234,7 +234,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/PawCurl/Left/Proxy
+    attribute: HAP/PawCurlLeft/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -255,7 +255,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/PawCurl/Left/Pass
+    attribute: _HAP/PawCurlLeft/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -276,7 +276,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/PawCurl/Right/Proxy
+    attribute: HAP/PawCurlRight/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -297,7 +297,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/PawCurl/Right/Pass
+    attribute: _HAP/PawCurlRight/Pass
     path: 
     classID: 95
     script: {fileID: 0}

@@ -54,7 +54,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/EyePoke/Left/Proxy
+    attribute: HAP/EyePokeLeft/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -75,7 +75,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/EyePoke/Left/Pass
+    attribute: _HAP/EyePokeLeft/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -96,7 +96,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/EyePoke/Left/Delta
+    attribute: _HAP/EyePokeLeft/Delta
     path: 
     classID: 95
     script: {fileID: 0}
@@ -117,7 +117,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/EyePoke/Right/Proxy
+    attribute: HAP/EyePokeRight/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -138,7 +138,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/EyePoke/Right/Pass
+    attribute: _HAP/EyePokeRight/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -159,7 +159,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/EyePoke/Right/Delta
+    attribute: _HAP/EyePokeRight/Delta
     path: 
     classID: 95
     script: {fileID: 0}
@@ -183,7 +183,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 512923781
+      attribute: 2277961982
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -192,7 +192,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 2781544860
+      attribute: 322784007
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -201,7 +201,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 1402109618
+      attribute: 888783412
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -210,7 +210,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 2120386957
+      attribute: 3106698577
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -219,7 +219,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 459999486
+      attribute: 2080420984
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -228,7 +228,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 4036026063
+      attribute: 4096562022
       script: {fileID: 0}
       typeID: 95
       customType: 0
@@ -294,7 +294,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/EyePoke/Left/Proxy
+    attribute: HAP/EyePokeLeft/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -315,7 +315,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/EyePoke/Left/Pass
+    attribute: _HAP/EyePokeLeft/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -336,7 +336,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/EyePoke/Left/Delta
+    attribute: _HAP/EyePokeLeft/Delta
     path: 
     classID: 95
     script: {fileID: 0}
@@ -357,7 +357,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: HAP/EyePoke/Right/Proxy
+    attribute: HAP/EyePokeRight/Proxy
     path: 
     classID: 95
     script: {fileID: 0}
@@ -378,7 +378,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/EyePoke/Right/Pass
+    attribute: _HAP/EyePokeRight/Pass
     path: 
     classID: 95
     script: {fileID: 0}
@@ -399,7 +399,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: _HAP/EyePoke/Right/Delta
+    attribute: _HAP/EyePokeRight/Delta
     path: 
     classID: 95
     script: {fileID: 0}

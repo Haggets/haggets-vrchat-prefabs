@@ -19,18 +19,3 @@ MonoBehaviour:
     saved: 0
     defaultValue: 0
     networkSynced: 1
-  - name: HAP/CheeseSlap/HandSender
-    valueType: 2
-    saved: 1
-    defaultValue: 1
-    networkSynced: 1
-  - name: HAP/CheeseSlap/TailSender
-    valueType: 2
-    saved: 1
-    defaultValue: 1
-    networkSynced: 1
-  - name: HAP/CheeseSlap/Receiver
-    valueType: 2
-    saved: 1
-    defaultValue: 1
-    networkSynced: 1
