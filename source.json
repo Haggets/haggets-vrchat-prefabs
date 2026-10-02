@@ -1,0 +1,18 @@
+{
+    "name": "Haggets VPM",
+    "id": "com.haggets.vpm",
+    "url": "https://haggets.github.io/haggets-vrchat-prefabs/index.json",
+    "author": {
+        "name": "Haggets",
+        "url": "https://haggets.com"
+    },
+    "description": "VRChat avatar prefabs by Haggets",
+    "infoLink": {
+        "url": "https://github.com/Haggets/haggets-vrchat-prefabs",
+        "text": "View on GitHub"
+    },
+    "githubRepos": [
+        "Haggets/haggets-vrchat-prefabs"
+    ],
+    "packages": []
+}

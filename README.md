@@ -6,7 +6,7 @@ Modular animator logic for VRChat avatars, mainly used for me to reuse logic acr
 
 **Through the Creator Companion (recommended):** add the HVP listing URL in _Settings → Packages → Add Repository_, then add **HVP** to your project.
 
-**Manually:** copy this folder to `Packages/com.haggets.hvp` inside your Unity project.
+**Manually:** copy `Packages/com.haggets.hvp` from this repo into the `Packages` folder of your Unity project.
 
 Requires VRChat Avatars SDK 3.5+ and VRCFury.
 
