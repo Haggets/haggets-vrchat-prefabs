@@ -64,8 +64,17 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: e169737c5dae4bec9f01519718f6e933|Packages/com.haggets.hap/Gestures/HAP gesturesController.controller
+            id: e169737c5dae4bec9f01519718f6e933|Packages/com.haggets.hap/Gestures/HAP
+              gesturesController.controller
             objRef: {fileID: 9100000, guid: e169737c5dae4bec9f01519718f6e933, type: 2}
+          type: 5
+        - controller:
+            version: 1
+            fileID: 0
+            guid: 
+            id: ff6e71880269c0c49ab95c8bdabc2cbe|Packages/com.haggets.hap/Gestures/HAP
+              gesturesNoOverrideController.controller
+            objRef: {fileID: 9100000, guid: ff6e71880269c0c49ab95c8bdabc2cbe, type: 2}
           type: 3
         menus: []
         prms:
@@ -73,11 +82,12 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: 981889f34e064e6aa2c0d47b6b3864a0|Packages/com.haggets.hap/Gestures/HAP gesturesParams.asset
+            id: 981889f34e064e6aa2c0d47b6b3864a0|Packages/com.haggets.hap/Gestures/HAP
+              gesturesParams.asset
             objRef: {fileID: 11400000, guid: 981889f34e064e6aa2c0d47b6b3864a0, type: 2}
         smoothedPrms: []
         globalParams:
-        - 'HAP/*'
+        - HAP/*
         allNonsyncedAreGlobal: 0
         ignoreSaved: 0
         toggleParam: 
