@@ -40,7 +40,7 @@ It is mainly required for smoothing out parameters, so things like ear puppeteer
 
 Adds a **custom gesture system** that can interact with the blink module and any other face interactions. The way it's setup allows for different expressions to interact with eachother gracefully, allowing the mix of eye and mouth shapes independently and smoothly.
 
-Another controller is also included that excludes the Override. Useful for hand gestures where you may want the smoothed hand gestures but not forcing the hand shapes.
+Another controller is also included, on the Gesture layer, that excludes the Override and the Quest controllers toggle. Useful for hand gestures where you may want the smoothed hand gestures but not forcing the hand shapes.
 
 #### Instructions
 
@@ -48,38 +48,42 @@ Another controller is also included that excludes the Override. Useful for hand 
 2. Use the animator parameters `HAP/GestureLeft/*/Proxy` and `HAP/GestureRight/*/Proxy` to drive your gesture animations, instead of `GestureLeft` and `GestureRight`.
 3. Use the animator parameters `HAP/GestureLeftWeight/Proxy` and `HAP/GestureRightWeight/Proxy` for the trigger pull.
 4. Optionally, add menu controls that set `HAP/GestureLeft/Override` and `HAP/GestureRight/Override` to allow forced gesture.
+5. Optionally, add a menu toggle for `HAP/QuestControllers/Enabled` to ignore the Victory/Peace gesture.
 
 Gesture order is `0` Neutral, `1` Fist, `2` HandOpen, `3` FingerPoint, `4` Victory, `5` RockNRoll, `6` HandGun, `7` ThumbsUp.
 
 #### Included Expression Parameters
 
-| Property                    | Animator Type | Expression Type | Synced | Description                                                                             |
-| --------------------------- | ------------- | --------------- | ------ | --------------------------------------------------------------------------------------- |
-| `HAP/GestureLeft/Override`  | Float         | Int             | ✔      | Forces a left handed gesture (`1`–`7`) regardless of the real hand. `0` = no override.  |
-| `HAP/GestureRight/Override` | Float         | Int             | ✔      | Forces a right handed gesture (`1`–`7`) regardless of the real hand. `0` = no override. |
+| Property                       | Animator Type | Expression Type | Synced | Description                                                                             |
+| ------------------------------ | ------------- | --------------- | ------ | --------------------------------------------------------------------------------------- |
+| `HAP/GestureLeft/Override`     | Float         | Int             | ✔      | Forces a left handed gesture (`1`–`7`) regardless of the real hand. `0` = no override.  |
+| `HAP/GestureRight/Override`    | Float         | Int             | ✔      | Forces a right handed gesture (`1`–`7`) regardless of the real hand. `0` = no override. |
+| `HAP/QuestControllers/Enabled` | Float         | Bool            | ✔      | Off by default. When true it will ignore the Victory/Peace hand gesture.                |
 
 #### Output Animator Parameters
 
-| Property                             | Animator Type | Description                                                                           |
-| ------------------------------------ | ------------- | ------------------------------------------------------------------------------------- |
-| `HAP/GestureLeft/Neutral/Proxy`      | Float         | Smoothed 0–1 weight of the Neutral gesture on the left hand.                          |
-| `HAP/GestureLeft/Fist/Proxy`         | Float         | Smoothed 0–1 weight of the Fist gesture on the left hand.                             |
-| `HAP/GestureLeft/HandOpen/Proxy`     | Float         | Smoothed 0–1 weight of the HandOpen gesture on the left hand.                         |
-| `HAP/GestureLeft/FingerPoint/Proxy`  | Float         | Smoothed 0–1 weight of the FingerPoint gesture on the left hand.                      |
-| `HAP/GestureLeft/Victory/Proxy`      | Float         | Smoothed 0–1 weight of the Victory gesture on the left hand.                          |
-| `HAP/GestureLeft/RockNRoll/Proxy`    | Float         | Smoothed 0–1 weight of the RockNRoll gesture on the left hand.                        |
-| `HAP/GestureLeft/HandGun/Proxy`      | Float         | Smoothed 0–1 weight of the HandGun gesture on the left hand.                          |
-| `HAP/GestureLeft/ThumbsUp/Proxy`     | Float         | Smoothed 0–1 weight of the ThumbsUp gesture on the left hand.                         |
-| `HAP/GestureRight/Neutral/Proxy`     | Float         | Smoothed 0–1 weight of the Neutral gesture on the right hand.                         |
-| `HAP/GestureRight/Fist/Proxy`        | Float         | Smoothed 0–1 weight of the Fist gesture on the right hand.                            |
-| `HAP/GestureRight/HandOpen/Proxy`    | Float         | Smoothed 0–1 weight of the HandOpen gesture on the right hand.                        |
-| `HAP/GestureRight/FingerPoint/Proxy` | Float         | Smoothed 0–1 weight of the FingerPoint gesture on the right hand.                     |
-| `HAP/GestureRight/Victory/Proxy`     | Float         | Smoothed 0–1 weight of the Victory gesture on the right hand.                         |
-| `HAP/GestureRight/RockNRoll/Proxy`   | Float         | Smoothed 0–1 weight of the RockNRoll gesture on the right hand.                       |
-| `HAP/GestureRight/HandGun/Proxy`     | Float         | Smoothed 0–1 weight of the HandGun gesture on the right hand.                         |
-| `HAP/GestureRight/ThumbsUp/Proxy`    | Float         | Smoothed 0–1 weight of the ThumbsUp gesture on the right hand.                        |
-| `HAP/GestureLeftWeight/Proxy`        | Float         | Smoothed trigger pull (0–1) for the left hand. Held at 1 while an override is active  |
-| `HAP/GestureRightWeight/Proxy`       | Float         | Smoothed trigger pull (0–1) for the right hand. Held at 1 while an override is active |
+| Property                             | Animator Type | Description                                                                                                     |
+| ------------------------------------ | ------------- | --------------------------------------------------------------------------------------------------------------- |
+| `HAP/GestureLeft`                    | Float         | Gesture index (`0`–`7`) in use on the left hand: uses the override if active, otherwise uses the real gesture.  |
+| `HAP/GestureRight`                   | Float         | Gesture index (`0`–`7`) in use on the right hand: uses the override if active, otherwise uses the real gesture. |
+| `HAP/GestureLeft/Neutral/Proxy`      | Float         | Smoothed 0–1 weight of the Neutral gesture on the left hand.                                                    |
+| `HAP/GestureLeft/Fist/Proxy`         | Float         | Smoothed 0–1 weight of the Fist gesture on the left hand.                                                       |
+| `HAP/GestureLeft/HandOpen/Proxy`     | Float         | Smoothed 0–1 weight of the HandOpen gesture on the left hand.                                                   |
+| `HAP/GestureLeft/FingerPoint/Proxy`  | Float         | Smoothed 0–1 weight of the FingerPoint gesture on the left hand.                                                |
+| `HAP/GestureLeft/Victory/Proxy`      | Float         | Smoothed 0–1 weight of the Victory gesture on the left hand.                                                    |
+| `HAP/GestureLeft/RockNRoll/Proxy`    | Float         | Smoothed 0–1 weight of the RockNRoll gesture on the left hand.                                                  |
+| `HAP/GestureLeft/HandGun/Proxy`      | Float         | Smoothed 0–1 weight of the HandGun gesture on the left hand.                                                    |
+| `HAP/GestureLeft/ThumbsUp/Proxy`     | Float         | Smoothed 0–1 weight of the ThumbsUp gesture on the left hand.                                                   |
+| `HAP/GestureRight/Neutral/Proxy`     | Float         | Smoothed 0–1 weight of the Neutral gesture on the right hand.                                                   |
+| `HAP/GestureRight/Fist/Proxy`        | Float         | Smoothed 0–1 weight of the Fist gesture on the right hand.                                                      |
+| `HAP/GestureRight/HandOpen/Proxy`    | Float         | Smoothed 0–1 weight of the HandOpen gesture on the right hand.                                                  |
+| `HAP/GestureRight/FingerPoint/Proxy` | Float         | Smoothed 0–1 weight of the FingerPoint gesture on the right hand.                                               |
+| `HAP/GestureRight/Victory/Proxy`     | Float         | Smoothed 0–1 weight of the Victory gesture on the right hand.                                                   |
+| `HAP/GestureRight/RockNRoll/Proxy`   | Float         | Smoothed 0–1 weight of the RockNRoll gesture on the right hand.                                                 |
+| `HAP/GestureRight/HandGun/Proxy`     | Float         | Smoothed 0–1 weight of the HandGun gesture on the right hand.                                                   |
+| `HAP/GestureRight/ThumbsUp/Proxy`    | Float         | Smoothed 0–1 weight of the ThumbsUp gesture on the right hand.                                                  |
+| `HAP/GestureLeftWeight/Proxy`        | Float         | Smoothed trigger pull (0–1) for the left hand. Held at 1 while an override is active                            |
+| `HAP/GestureRightWeight/Proxy`       | Float         | Smoothed trigger pull (0–1) for the right hand. Held at 1 while an override is active                           |
 
 </details>
 
@@ -90,9 +94,9 @@ Gesture order is `0` Neutral, `1` Fist, `2` HandOpen, `3` FingerPoint, `4` Victo
 
 > Requires **HAP Frame Time**.
 
-Adds a **custom blink system** separate from the VRChat system, with a single double and triple blink at random-ish intervals with a single synced boolean.
+Adds a **custom blink system** separate from the VRChat system, with a single double and triple blink at random-ish intervals with two synced booleans (one for the blink itself, one for the on/off toggle).
 
-It features a Override parameter which is used to force close the eyes if required by animations. It also integrated neatly with HAP Gestures
+It features a Override parameter which is used to force close the eyes if required by animations. It also integrated neatly with HAP Gestures.
 
 #### Instructions
 
@@ -105,6 +109,7 @@ It features a Override parameter which is used to force close the eyes if requir
 | Property              | Animator Type | Expression Type | Synced | Description                                               |
 | --------------------- | ------------- | --------------- | ------ | --------------------------------------------------------- |
 | `_HAP/Blink/CanBlink` | Bool          | Bool            | ✔      | Internal. Syncs the blink state between local and remote. |
+| `HAP/Blink/Enabled`   | Bool          | Bool            | ✔      | Disables the blink logic.                                 |
 
 #### Output Animator Parameters
 
@@ -151,11 +156,9 @@ Adds **smoothed cheek pulling** behavior, which can be used to stretch the face 
 <details>
 <summary><h3>HAP Cheese Slap</h3></summary>
 
-Adds a **synced cheese slap system**, which allows compatible avatars to cheese your character, as well as allowing you to cheese others.
+Adds a **synced cheese slap system**, which allows compatible avatars to cheese your character, as well as allowing you to cheese others. A slap only counts when the sender reaches the face quickly. A slow approach is treated as a miss.
 
 As it is synced, it will not get desynced for late joiners but it can lead to small jittering when added and removed in quick succession.
-
-A slap only counts when the sender reaches the face quickly. A slow approach is treated as a miss.
 
 How it syncs: every client detects the slap from the contacts on its own, so `HAP/CheeseSlap` changes immediately for everyone who saw it happen. The wearer's client also writes the result to `_HAP/CheeseSlap/Sync`. Remote clients only use that bool to correct themselves: to catch a slap or removal their own detection missed, and to show the right state to late joiners.
 
@@ -168,9 +171,10 @@ How it syncs: every client detects the slap from the contacts on its own, so `HA
 
 #### Included Expression Parameters
 
-| Property               | Animator Type | Expression Type | Synced | Description                                                                                                                                                           |
-| ---------------------- | ------------- | --------------- | ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `_HAP/CheeseSlap/Sync` | Bool          | Bool            | ✔      | Internal. The wearer's cheesed state, written only by the wearer's client. Remote clients follow it when their own detection disagrees. Not saved, costs 1 synced bit |
+| Property                 | Animator Type | Expression Type | Synced | Description                                                                                                                                                           |
+| ------------------------ | ------------- | --------------- | ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `_HAP/CheeseSlap/Sync`   | Bool          | Bool            | ✔      | Internal. The wearer's cheesed state, written only by the wearer's client. Remote clients follow it when their own detection disagrees. Not saved, costs 1 synced bit |
+| `HAP/CheeseSlap/Enabled` | Bool          | Bool            | ✔      | Disables the cheese logic and clears the cheese state.                                                                                                                |
 
 #### Output Animator Parameters
 
@@ -212,7 +216,7 @@ Adds **smooth head pat detection** from hands (yours or other players').
 
 > Requires **HAP Frame Time**.
 
-Adds **smooth eye poke detection** from fingers (yours or other players') near each eye.
+Adds **smooth eye poke detection** from fingers (yours or other players) near each eye.
 
 #### Instructions
 
@@ -236,7 +240,7 @@ Adds **smooth eye poke detection** from fingers (yours or other players') near e
 
 > Requires **HAP Frame Time**.
 
-Adds **smooth paw poke detection** from fingers (yours or other players') poking each paw.
+Adds **smooth paw poke detection** from fingers (yours or other players) poking each paw.
 
 #### Instructions
 

@@ -14,6 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isEmpty: 0
   parameters:
+  - name: HAP/CheeseSlap/Enabled
+    valueType: 2
+    saved: 1
+    defaultValue: 1
+    networkSynced: 1
   - name: _HAP/CheeseSlap/Sync
     valueType: 2
     saved: 0
