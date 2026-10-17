@@ -66,14 +66,15 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: 16e3598a70274638ab49677a983d0cfb|Packages/com.haggets.hvp/Paw Poke/HVP pawPokeController.controller
+            id: 16e3598a70274638ab49677a983d0cfb|Packages/com.haggets.hvp/Paw Poke/HVP
+              pawPokeController.controller
             objRef: {fileID: 9100000, guid: 16e3598a70274638ab49677a983d0cfb, type: 2}
           type: 5
         menus: []
         prms: []
         smoothedPrms: []
         globalParams:
-        - 'HVP/*'
+        - HVP/*
         allNonsyncedAreGlobal: 0
         ignoreSaved: 0
         toggleParam: 
@@ -123,8 +124,8 @@ MonoBehaviour:
   radius: 0.04
   height: 2
   size: {x: 0.09, y: 0.085, z: 0.015}
-  position: {x: 0, y: -0.01, z: -0.045}
-  rotation: {x: 0, y: 0, z: 0, w: 1}
+  position: {x: 0, y: 0.08, z: 0.04}
+  rotation: {x: -0.32143945, y: 0, z: 0, w: 0.9469301}
   localOnly: 0
   contentTypes: -1
   collisionTags:
@@ -152,7 +153,7 @@ MonoBehaviour:
   radius: 0.04
   height: 2
   size: {x: 0.09, y: 0.085, z: 0.015}
-  position: {x: 0, y: -0.01, z: -0.045}
+  position: {x: 0, y: 0.08, z: 0.04}
   rotation: {x: 0, y: 0, z: 0, w: 1}
   localOnly: 0
   contentTypes: -1

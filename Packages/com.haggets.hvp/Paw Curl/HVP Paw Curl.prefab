@@ -48,7 +48,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1419.0
+  vrcfuryVersion: 1.1431.0
   somethingIsBroken: 0
   config:
     features: []
@@ -66,14 +66,15 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: bcfee8498fa44b96add9904687449343|Packages/com.haggets.hvp/Paw Curl/HVP pawCurlController.controller
+            id: bcfee8498fa44b96add9904687449343|Packages/com.haggets.hvp/Paw Curl/HVP
+              pawCurlController.controller
             objRef: {fileID: 9100000, guid: bcfee8498fa44b96add9904687449343, type: 2}
           type: 5
         menus: []
         prms: []
         smoothedPrms: []
         globalParams:
-        - 'HVP/*'
+        - HVP/*
         allNonsyncedAreGlobal: 0
         ignoreSaved: 0
         toggleParam: 
