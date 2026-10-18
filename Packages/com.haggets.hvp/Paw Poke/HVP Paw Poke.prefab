@@ -154,7 +154,7 @@ MonoBehaviour:
   height: 2
   size: {x: 0.09, y: 0.085, z: 0.015}
   position: {x: 0, y: 0.08, z: 0.04}
-  rotation: {x: 0, y: 0, z: 0, w: 1}
+  rotation: {x: -0.32143945, y: 0, z: 0, w: 0.9469301}
   localOnly: 0
   contentTypes: -1
   collisionTags:
