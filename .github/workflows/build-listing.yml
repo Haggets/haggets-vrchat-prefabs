@@ -42,6 +42,11 @@ jobs:
           path: ${{env.pathToCi}}
           clean: false # otherwise the local repo will no longer be checked out
           
+      # package-list-action still needs .NET 6, which the runners dropped
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 6.0.x
+
       - name: Restore Cache
         uses: actions/cache@v4
         with:
