@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.1.0
+
+- Added HVP Puppet
+- Cheese slap shows right away for other players
+- Fixed slaps from other players never landing
+- Fixed the cheese flickering for other players
+- Right paw poke contact tilted like the left one
+- Victory falls back to Neutral with Quest Controllers
+- Requires VRChat Avatars SDK 3.10.6 and VRCFury 1.1492
+
 ## 1.0.0
 
 - Initial Release
