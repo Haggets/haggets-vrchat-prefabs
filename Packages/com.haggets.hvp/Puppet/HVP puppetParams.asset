@@ -19,8 +19,16 @@ MonoBehaviour:
     saved: 0
     defaultValue: 0
     networkSynced: 1
+    bitWidth: 4
+    useCustomLerpDuration: 0
+    customLerpDuration: 0
+    flippedRepresentation: 0
   - name: Puppet/Y
     valueType: 1
     saved: 0
     defaultValue: 0
     networkSynced: 1
+    bitWidth: 4
+    useCustomLerpDuration: 0
+    customLerpDuration: 0
+    flippedRepresentation: 0
