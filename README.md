@@ -8,7 +8,7 @@ Modular animator logic for VRChat avatars, mainly used for me to reuse logic acr
 
 **Manually:** copy `Packages/com.haggets.hvp` from this repo into the `Packages` folder of your Unity project.
 
-Requires VRChat Avatars SDK 3.5+ and VRCFury.
+Requires VRChat Avatars SDK 3.10.6+ and VRCFury 1.1492+.
 
 ## Modules
 
