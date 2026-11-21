@@ -127,6 +127,45 @@ It features a Override parameter which is used to force close the eyes if requir
 
 </details>
 
+---
+
+<details>
+<summary><h3>HVP Puppet</h3></summary>
+
+Adds a **smoothed two-axis puppet** for things like ears and tails. X and Y sync at 4 bits each (15 steps from -1 to 1) and the smoothing hides the steps on remotes.
+
+Already includes **HVP Frame Time**. Its parameters are separate per prefab, so an avatar can have more than one.
+
+#### Instructions
+
+1. Drag and drop the prefab into the avatar's hierarchy and unpack it, since changes to the VRCFury component of a prefab instance or variant don't stick.
+2. Add your controller, menu and parameters to that VRCFury component.
+3. Add a Two Axis Puppet to your menu using `Puppet/X` and `Puppet/Y`.
+4. Use the animator parameters `Puppet/X/Proxy` and `Puppet/Y/Proxy` in your controller.
+5. Optionally, add `Puppet/SmoothAmount` to your parameters with a different default. Higher follows the stick faster.
+
+#### Included Expression Parameters
+
+| Property   | Animator Type | Expression Type | Synced | Description         |
+| ---------- | ------------- | --------------- | ------ | ------------------- |
+| `Puppet/X` | Float         | Float (4 bits)  | ✔      | Stick X, -1 to 1.   |
+| `Puppet/Y` | Float         | Float (4 bits)  | ✔      | Stick Y, -1 to 1.   |
+
+#### Output Animator Parameters
+
+| Property         | Animator Type | Description                 |
+| ---------------- | ------------- | --------------------------- |
+| `Puppet/X/Proxy` | Float         | Smoothed X, from -1 to 1    |
+| `Puppet/Y/Proxy` | Float         | Smoothed Y, from -1 to 1    |
+
+#### Input Animator Parameters
+
+| Property              | Animator Type | Description                                      |
+| --------------------- | ------------- | ------------------------------------------------ |
+| `Puppet/SmoothAmount` | Float         | How fast the output follows the stick. 25 by default |
+
+</details>
+
 ## Contact interactions
 
 <details>
