@@ -65,6 +65,11 @@ MonoBehaviour:
   receiverType: 0
   parameter: HVP/CheeseSlap/RemoveContact
   minVelocity: 0
+  writeToMaterials: 0
+  writeToMaterialsContactTags: 0
+  separateShaderParameter: 
+  shaderTargetRenderers: []
+  advancedParameters: 0
 --- !u!1 &2886183552112252576
 GameObject:
   m_ObjectHideFlags: 0
@@ -114,7 +119,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1419.0
+  vrcfuryVersion: 1.1492.0
   somethingIsBroken: 0
   config:
     features: []
@@ -148,16 +153,22 @@ MonoBehaviour:
         smoothedPrms: []
         globalParams:
         - HVP/*
-        allNonsyncedAreGlobal: 0
         ignoreSaved: 0
         toggleParam: 
         rootObjOverride: {fileID: 0}
         rootBindingsApplyToAvatar: 0
+        overwriteLocomotion: 1
         rewriteBindings: []
         allowMissingAssets: 0
         injectParams: []
+        faceTrackingMeshes: []
+        faceTrackingBlendshapeSets: []
+        faceTrackingParameterBehaviors: []
+        visemeDampenMode: 0
+        visemeDampenAmount: 1
         injectSpsDepthParam: 
         injectSpsVelocityParam: 
+        allNonsyncedAreGlobal: 0
         controller:
           version: 1
           fileID: 0
@@ -298,3 +309,8 @@ MonoBehaviour:
   receiverType: 2
   parameter: HVP/CheeseSlap/Contact
   minVelocity: 0.05
+  writeToMaterials: 0
+  writeToMaterialsContactTags: 0
+  separateShaderParameter: 
+  shaderTargetRenderers: []
+  advancedParameters: 8
