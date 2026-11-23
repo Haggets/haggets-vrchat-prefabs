@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.2.0
+
+- Cheese slap speed no longer depends on frame rate
+- Fixed the cheese sometimes not showing for other players
+
 ## 1.1.0
 
 - Added HVP Puppet
