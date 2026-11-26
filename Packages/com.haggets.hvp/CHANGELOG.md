@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.2
+
+- Installs on older VRChat SDK and VRCFury versions instead of falling back to 1.0.0
+- d4rk Avatar Optimizer no longer merges Frame Time
+
 ## 1.1.1
 
 - Cheese slap speed no longer depends on frame rate
