@@ -9,8 +9,8 @@
     "url": "https://haggets.com"
   },
   "vpmDependencies": {
-    "com.vrchat.avatars": ">=3.10.6",
-    "com.vrcfury.vrcfury": ">=1.1492.0"
+    "com.vrchat.avatars": ">=3.5.0",
+    "com.vrcfury.vrcfury": ">=1.1000.0"
   },
   "legacyFolders": {},
   "hideInEditor": false,
